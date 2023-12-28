@@ -7,9 +7,6 @@ const Products = ({innerPage , Title}) => {
         <div className="products">
           {  ( [0,1,2,4,5,6,7].map((item)=>(
             <Product
-            key={item.id}
-            id={item.id}
-            data = {item.attributes}
             />
           )
           )) 
