@@ -4,7 +4,6 @@ import image from '../../../assets/products/Image.png';
 const Product = ({ id, data }) => {
 
   const navigate = useNavigate();
-  const baseUrl = process.env.REACT_APP_DEV_URL;
 
   return (
     <div className='product-card' onClick={()=>navigate(`/product/singleProduct`)}>
