@@ -1,7 +1,7 @@
 import './Product.scss';
 import { useNavigate } from 'react-router-dom';
 import image from '../../../assets/products/Image.png';
-const Product = ({}) => {
+const Product = () => {
 
   const navigate = useNavigate();
 
